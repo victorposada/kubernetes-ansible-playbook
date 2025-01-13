@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/hoid/Documents/kubernetes-ansible-playbook/vagrant/1-master-3-workers","disabled":false,"__vagrantfile":true}}}
