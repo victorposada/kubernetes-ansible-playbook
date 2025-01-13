@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Cache Vagrant boxes
-        run: sudo apt install vagrant
+        run: sudo apt update && sudo apt upgrade -y && sudo apt install vagrant
 
       - name: Show Vagrant version
         run: vagrant --version
