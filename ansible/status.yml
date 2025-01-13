@@ -1,0 +1,6 @@
+---
+- name: Status
+  hosts: multi
+  tasks:
+  - name: Get free memory
+    command: free -m
